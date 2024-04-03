@@ -14,7 +14,7 @@ const actorsGet = require('./routes/actors')
 const actorsNew = require('./routes/actors')
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/movigo')
+mongoose.connect('mongodb+srv://mirsoonuzbsila001:1234movibox@cluster0.moku9nj.mongodb.net/movigo')
 .then(() => {
     console.log("Mongo ishladi")
 })
